@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* SECTION 1 */
+
+.sec {
+  width: 100%;
+  min-height: 90vh;
+}
+
+#sec1 {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginform-container {
+  width: 60%;
+  padding: 2rem;
+  border: 2px solid #663399;
+  border-radius: 0.6rem;
+  box-shadow: 0 2px 10px #6f4699;
+  background-color: #faebd7;
+}
+
+.form-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  color: #663399;
+}
+
+.form-body {
+  width: 100%;
+  padding-top: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #663399;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.8rem 0.5rem;
+  margin-top: 0.5rem;
+  border: 2px solid #663399;
+  border-radius: 0.4rem;
+  color: #5c1e99;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.7rem;
+  border: 2px solid #663399;
+  border-radius: 0.4rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+}
+.btn-success {
+  margin-top: 0.8rem;
+  color: #5c1e99;
+  transition: 0.2s;
+}
+.btn-success:hover {
+  color: #faebd7;
+  background-color: #663399;
+}
+

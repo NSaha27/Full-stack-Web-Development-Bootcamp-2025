@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>First Semantic HTML Page</title>
+</head>
+<body>
+  <header class="header">
+    <hgroup class="header-group-1">
+      <h2 class="logo">First Page Logo</h2>
+    </hgroup>
+    <hgroup class="header-group-2">
+      <h3 class="owner">Niladri Saha</h3>
+      <address class="contact-details">
+        <h4 class="contact-number">☎️ +91-8240520385</h4>
+        <h5 class="contact-email">✉️ niladri.saha31@example.com</h5>
+      </address>
+      <h5 class="time">
+        <time datetime="2025-08-23" class="current-time">August 23rd, 2025</time>
+      </h5>
+    </hgroup>
+  </header>
+  <nav class="navbar">
+    <div class="main-menu">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About Us</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/contact">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="searchbar">
+      <form action="#" method="post">
+        <input type="search" name="search" id="search" class="search" placeholder="search here..."> <button type="submit" class="btn">Search</button>
+      </form>
+    </div>
+  </nav>
+  <main class="main">
+    <section class="sec" id="sec1">
+      <p>
+        <code class="">console.log("Hello World!")</code>
+      </p>
+    </section>
+    <section class="sec" id="sec2">
+      <aside class="disp-image" id="image-01">
+        <figure>
+          <img src="./images/jagannath_ji.jpg" width="200" alt="Jagannath Ji">
+          <figcaption>Jai Jagannath!</figcaption>
+        </figure>
+      </aside>
+      <aside class="disp-image" id="image-02">
+        <figure>
+          <img src="./images/shiv_ji.jpg" width="200" alt="Shiv Ji">
+          <figcaption>Om namah Shivay!</figcaption>
+        </figure>
+      </aside>
+    </section>
+    <section class="sec" id="sec3">
+      <article>
+        <video src="./images/earth.mp4" autoplay controls controlslist="nofullscreen nodownload noremoteplayback" width="400" title="Earth"></video>
+      </article>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>&copy; firstpage.com, 2025</p>
+  </footer>
+</body>
+</html>

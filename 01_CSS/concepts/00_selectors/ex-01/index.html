@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CSS Selectors</title>
+</head>
+<body>
+  <h1>CSS Selectors</h1>
+  <div id="selectors">
+    <div class="">
+      <h2 class="selector-title">Universal selector</h2>
+      <p class="selector-body">selects all the elements of the DOM, denoted by asteric i.e. " * "</p>
+      <p class="selector-example"></p>
+    </div>
+    <div class="">
+      <h2 class="selector-title">Type selector</h2>
+      <p class="selector-body">selects specific tags of an HTML page, like - h1, span, div, p, button etc.</p>
+      <p class="selector-example"></p>
+    </div>
+    <div class="">
+      <h2 class="selector-title">Class selector</h2>
+      <p class="selector-body">selects one or more elements that has an unique class attribute, one or more elements may have a same class name, denoted by a dot i.e. " . "</p>
+      <p class="selector-example"></p>
+    </div>
+    <div class="">
+      <h2 class="selector-title">ID selector</h2>
+      <p class="selector-body">selects specific element that has an unique ID name, an element should have only one unique ID in that HTML page, denoted by " # "</p>
+      <p class="selector-example"></p>
+    </div>
+    <div class="">
+      <h2 class="selector-title">Attribute selector</h2>
+      <p class="selector-body">selects those elements that have selected attributes and their values, ex. - input[type="text"], this selects only those input tags that have a type attribute with "text" value</p>
+      <p class="selector-example"></p>
+    </div>
+    <div class="">
+      <h2 class="selector-title">Descendant selector</h2>
+      <p class="selector-body">selects those elements that are descendants of the previous root element, ex. - article div p , selects those p tags that are descendants of an article tag</p>
+      <p class="selector-example"></p>
+    </div>
+    <div class="">
+      <h2 class="selector-title">Child selector</h2>
+      <p class="selector-body">selects that element which is an exact child of its previous element, ex. - div > p, selects those p elements that are exactly the children of div elements</p>
+      <p class="selector-example"></p>
+    </div>
+    <div class="">
+      <h2 class="selector-title">Adjacent Sibling Selector</h2>
+      <p class="selector-body">selects the adjacent elements of the same parent element, ex. - h1 + p, selects those h1 and p elements that are adjacent siblings of the same parent element</p>
+      <p class="selector-example"></p>
+    </div>
+    <div class="">
+      <h2 class="selector-title">General Sibling Selector</h2>
+      <p class="selector-body">selects those sibling elements that may or may not be adjacent but belongs to the same parent element, ex. - h2 ~ p, selects h2 and p adj or non-adj elements</p>
+      <p class="selector-example"></p>
+    </div>
+    <div class="">
+      <h2 class="selector-title">Pseudo-class Selector</h2>
+      <p class="selector-body">used to apply special actions on an element, ex. - button : hover, used to apply hover action on button element</p>
+      <p class="selector-example"></p>
+    </div>
+    <div class="">
+      <h2 class="selector-title">Pseudo-element Selector</h2>
+      <p class="selector-body">used to apply special actions on an element, ex. - p :: first-letter, to work on the first letter of a paragraph element</p>
+      <p class="selector-example"></p>
+    </div>
+    <div class="">
+      <h2 class="selector-title">Group selectors</h2>
+      <p class="selector-body">selects a group of elements to aaply styles on them, ex. - h1, h2, h3 {color: red}, apply red text colors on all h1, h2, and h3 elements</p>
+      <p class="selector-example"></p>
+    </div>
+  </div>
+</body>
+</html>
