@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  /* box-sizing: content-box; */
   box-sizing: border-box;
   font-family: sans-serif;
 }
@@ -55,4 +56,16 @@ p::first-letter {
 
 #selectors > div h2, #selectors > div p {
   line-height: 1.6rem;
+}
+
+/* DISPLAY INLINE AND BLOCK */
+
+.inline {
+  display: inline;
+  background-color: skyblue;
+}
+
+.block {
+  display: block;
+  background-color: orange;
 }
