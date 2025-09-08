@@ -97,8 +97,9 @@ main section {
 .card .demo-full-page-template-2 .main {
   display: grid;
   min-height: 150px;
-  grid-template-rows: 2fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: 'content1 content1 content1' 'services services services' 'content2 content2 content2'; 
+  gap: 5px;
 }
 .card .demo-full-page-template-2 .main 
 .services {
@@ -108,8 +109,4 @@ main section {
   background-color: #ccc;
   padding: 5px;
   gap: 5px;
-}
-.card .demo-full-page-template-2 .main 
-.services:nth-child(odd) {
-  background-color: pink;
 }

@@ -1,7 +1,7 @@
 {
   "files.autoSave": "onFocusChange",
   "editor.wordWrap": "on",
-  "workbench.colorTheme": "Dark Chai",
+  "workbench.colorTheme": "Default Light Modern",
   "editor.tabSize": 2,
   "editor.mouseWheelZoom": true,
   "editor.formatOnPaste": true,

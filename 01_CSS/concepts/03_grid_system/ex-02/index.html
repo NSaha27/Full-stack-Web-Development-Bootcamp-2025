@@ -101,6 +101,50 @@
           ">Footer</div>
         </div>
       </aside>
+      <aside class="card">
+        <h2 class="card-title">Nested Grid Templates</h2>
+        <div class="card-body grid nested-grid-template" style="
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: full;
+        
+        ">
+          <div class="grid-item" style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          ">1</div>
+          <div class="grid-item" style="display: grid;
+          grid-template-columns: 1fr 1fr;
+          background-color: #ccc;
+          gap: 5px;
+          ">
+            <div class="sub-grid-item" style="background-color: #ff4500;
+            min-height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            ">2.1</div>
+            <div class="sub-grid-item" style="background-color: #ff4500;
+            min-height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            ">2.2</div>
+            <div class="sub-grid-item" style="background-color: #ff4500;
+            min-height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            ">2.3</div>
+            <div class="sub-grid-item" style="background-color: #ff4500;
+            min-height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            ">2.4</div>
+          </div>
+        </div>
+      </aside>
     </section>
   </main>
 </body>
