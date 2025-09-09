@@ -130,6 +130,7 @@
   #sec1 .card {
     width: 70%;
     padding: 1.5rem;
+    border-radius: 1rem;
   }
   #sec1 .card:nth-child(1) figure {
     margin-bottom: 1.2rem;
