@@ -25,7 +25,7 @@
   align-items: center;
 }
 #sec1 .card {
-  width: 70%;
+  width: 40%;
   background-color: var(--card-bg-color);
   border-radius: 1.2rem;
   padding: 1.8rem;
@@ -124,4 +124,53 @@
 }
 #sec1 .card .contact-buttons #connect:hover {
   letter-spacing: 1px;
+}
+
+@media (max-width: 640px) {
+  #sec1 .card {
+    width: 70%;
+    padding: 1.5rem;
+  }
+  #sec1 .card:nth-child(1) figure {
+    margin-bottom: 1.2rem;
+  }
+  #sec1 .card:nth-child(1) figure .profile-image {
+    width: 6.8rem;
+    height: 6.8rem;
+  }
+  #sec1 .card:nth-child(1) figure .experience-type {
+    font-size: 0.7rem;
+  }
+  #sec1 .card .profile-name-type {
+    margin-bottom: 1rem;
+  }
+  #sec1 .card .profile-name-type h2 {
+    font-size: 1.5rem;
+    word-spacing: 2px;
+  }
+  #sec1 .card .profile-name-type p {
+    font-size: 0.7rem;
+  }
+  #sec1 .card .description {
+    font-size: 0.7rem;
+    margin-bottom: 1.3rem;
+  }
+  #sec1 .card .description::first-letter {
+    font-size: 1rem;
+  }
+  #sec1 .card .social-media-links {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  #sec1 .card .contact-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8rem;
+  }
+  #sec1 .card .contact-buttons button {
+    min-width: 100%;
+    padding: 0.5rem 1.5rem;
+    font-size: 0.8rem;
+  }
 }
