@@ -1,0 +1,21 @@
+section main .carousel .carousel-item {
+  max-height: 86vh;
+  object-fit: cover;
+}
+section main .carousel .carousel-item img {
+  min-height: 86vh;
+}
+section main .services > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+section main .services > div .card {
+  width: 30%;
+  min-height: 75vh;
+  box-shadow: 0 2px 14px #aaa;
+}
+section main .services > div .card img {
+  height: 35vh;
+  object-fit: cover;
+}
