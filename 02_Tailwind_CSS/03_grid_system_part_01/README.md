@@ -73,16 +73,3 @@ ex.
       <!-- ... -->
     </div>
   </div>
-
-------------------------------------------------
-JAVASCRIPT
-------------------------------------------------
-
-Different ways of printing stuffs in JavaScript
-------------------------------------------------
-  1. console.log("Hello") - logs something to the console, the most standard way of printing,
-  2. console.warn("This is a warning") - prints a warning statement,
-  3. console.info("This is an information") - prints an informational statement,
-  4. console.table({name: "John", age: 32}) - prints a Javascript object in tabular format,
-  5. process.stdout.write("Hello") - Node js way of printing something to the output,
-
